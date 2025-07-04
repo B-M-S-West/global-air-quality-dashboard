@@ -7,7 +7,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional, Tuple
 import streamlit as st
-from ..utils.config import Config
+from utils.config import Config
 
 class OpenAQClient:
     """OpenAQ API client with built-in rate limiting and caching."""

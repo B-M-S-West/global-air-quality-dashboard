@@ -1,6 +1,3 @@
-
-"""Main Streamlit application for OpenAQ Air Quality Dashboard."""
-
 import streamlit as st
 import pandas as pd
 from datetime import datetime, timedelta
@@ -8,10 +5,10 @@ import time
 from typing import List, Dict
 
 # Import our modules
-from ..api.client import get_openaq_client
-from ..plots.charts import AirQualityCharts
-from ..plots.maps import AirQualityMaps
-from ..utils.config import Config, POLLUTANT_INFO
+from api.client import get_openaq_client
+from plots.charts import AirQualityCharts
+from plots.maps import AirQualityMaps
+from utils.config import Config, POLLUTANT_INFO
 
 # Page configuration
 st.set_page_config(

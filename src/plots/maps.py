@@ -6,7 +6,7 @@ from folium import plugins
 import pandas as pd
 from typing import List, Dict, Tuple
 import streamlit as st
-from ..utils.config import POLLUTANT_INFO, AQI_THRESHOLDS
+from utils.config import POLLUTANT_INFO, AQI_THRESHOLDS
 
 class AirQualityMaps:
     """Class for generating air quality maps."""

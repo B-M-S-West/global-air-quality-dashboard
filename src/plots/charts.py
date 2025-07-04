@@ -8,7 +8,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 from typing import List, Dict
 import streamlit as st
-from ..utils.config import POLLUTANT_INFO, AQI_THRESHOLDS
+from utils.config import POLLUTANT_INFO, AQI_THRESHOLDS
 
 class AirQualityCharts:
     """Class for generating air quality charts and visualizations."""
